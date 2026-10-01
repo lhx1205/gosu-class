@@ -14,7 +14,7 @@ def circle():
     for i in range(N):
       for j in range(N):
         cur_i, cur_j = i, j
-        cnt = 1  # count 대신 cnt 사용 (함수 충돌 방지)
+        cnt = 1
 
         while True:
           next_i, next_j = -1, -1
